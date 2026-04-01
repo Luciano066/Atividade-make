@@ -1,0 +1,6 @@
+# Arquivos gerados
+relatorio.txt
+git-tcl/relatorio.txt
+projeto/
+*.log
+*.bak
