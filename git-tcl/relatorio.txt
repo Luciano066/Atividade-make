@@ -1,0 +1,45 @@
+=== tarefa_1.tcl ===
+=== RELATÓRIO DE CÉLULAS ===
+AND2: 11 instâncias
+XOR2: 12 instâncias
+flipflop_D: 5 instâncias
+TOTAL: 28 instâncias
+
+=== tarefa_2.tcl ===
+=== HIERARQUIA DO DESIGN ===
+
+contador_4bits
+  └── flipflop_D (4 instâncias)
+  └── (células primitivas)
+
+flipflop_D
+  └── (módulo primitivo - sem submódulos)
+
+somador_4bits
+  └── (apenas células primitivas)
+
+
+=== tarefa_3.tcl ===
+=== TOP 10 NETS POR FANOUT ===
+rst: fanout = 4
+clk: fanout = 4
+w_carry1: fanout = 2
+w_carry2: fanout = 2
+count[0]: fanout = 2
+w11: fanout = 2
+A[0]: fanout = 2
+w2: fanout = 2
+Cin: fanout = 2
+w3: fanout = 2
+
+=== NETS COM FANOUT ZERO (POSSÍVEIS ERROS) ===
+w10
+w1
+S[0]
+w4
+S[2]
+w7
+Cout
+S[1]
+S[3]
+
